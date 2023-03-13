@@ -11,7 +11,7 @@ export const Trending = () => {
       </div>
       <div className=" flex justify-center w-full ">
         <div className=" rounded-3xl w-4/5  ">
-          <div className="bg-[url('Jumbotron/jumbo.jpeg')]   bg-no-repeat bg-center bg-cover w-full h-[350px] rounded-3xl ">
+          <div className="bg-[url('assets/Jumbotron/jumbo.jpeg')]  bg-white/10 bg-no-repeat bg-center bg-cover w-full h-[350px] rounded-3xl ">
             <div className="text-white ml-10  pt-[50px]">
               <p className=" text-opacity-80 text-xl font-medium mb-5">
                 Artist
@@ -37,7 +37,7 @@ export const Trending = () => {
           </div>
         </div>
       </div>
-      <MyPlaylist/>
+      <MyPlaylist />
     </div>
   );
 };

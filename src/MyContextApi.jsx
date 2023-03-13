@@ -4,7 +4,7 @@ import axios from "axios";
 const context = createContext();
 const MyContextApi = ({ children }) => {
   const CLIENT_ID = "36775f11cfd84b9f8f516dfdb79f3011";
-  const REDIRECT_URI = "https://spotify-replicate-learnable.netlify.app/";
+  const REDIRECT_URI = "http://127.0.0.1:5173/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
   const [token, setToken] = useState("");
