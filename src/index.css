@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,5 +17,28 @@ body {
   height: 100%;
   color: whitesmoke;
   font-family: "Montserrat";
- 
 }
+
+.font1 {
+  font-family: "Roboto Condensed";
+}
+
+.parent:hover .child {
+  display: flex;
+}
+
+.child {
+  display: none;
+}
+
+.play-bg:hover .play {
+  display: flex;
+}
+.play {
+  display: none;
+}
+
+.play-bg:hover {
+  background: rgb(51, 50, 50);
+}
+

@@ -3,9 +3,12 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { MyContextApi } from "./MyContextApi";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <MyContextApi>
-    <App />
-  </MyContextApi>
+  <BrowserRouter>
+    <MyContextApi>
+      <App />
+    </MyContextApi>
+  </BrowserRouter>
 );
